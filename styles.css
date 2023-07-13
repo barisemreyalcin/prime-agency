@@ -218,7 +218,7 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
     gap: 3rem;
-    padding-top: 2rem;
+    padding-top: 5rem;
 }
 
 .services .service {
