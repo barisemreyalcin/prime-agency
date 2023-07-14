@@ -236,7 +236,7 @@ h1 {
     padding-bottom: 1rem;
 }
 
-.services-header p {
+.title p {
     position: relative;
     z-index: 10;
     margin: 1.5rem 0 1rem 0;
@@ -249,6 +249,61 @@ h1 {
 
 .service .section-text h2 {
     color: var(--primary-color);
+}
+
+/* WORKS */
+#works {
+    padding: 3rem 8rem;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 5rem;
+}
+
+.portfolio .work {
+    position: relative;
+    width: 33rem;
+    height: 33rem;
+}
+
+.portfolio .work img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio .work .action {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(128, 43, 0, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .4s;
+}
+
+.portfolio .work:hover .action{
+    opacity: 1;
+}
+
+.portfolio .work .action a {
+    color: var(--light-color);
+    font-weight: bold;
+    border: 2px solid var(--light-color);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    transition: all .4s;
+}
+
+.portfolio .work .action a:hover {
+    background-color: var(--dark-color);
 }
 
 /* RESPONSIVE */
