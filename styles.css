@@ -439,6 +439,23 @@ h1 {
     .services {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* CONTACT US */
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .contact .contact-form form .row{
+        flex-direction: column;
+    }
+    .contact .contact-form form .row .input-50{
+        width: 100%;
+    }
+    .contact .contact-form, .contact .contact-info {
+        width: 100%;
+    }
 }
 
 @media(max-width: 768px) {
